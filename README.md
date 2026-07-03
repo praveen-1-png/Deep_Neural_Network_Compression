@@ -144,7 +144,7 @@ Huffman encoding is applied as the final compression step. More frequent weight 
 | After Quantization| 0.1119    | 8-bit |
 | After Huffman     | 0.1100    | Variable-bit |
 
-> **Final Compression Ratio: 8.1× smaller** with only a **+0.98% accuracy gain** over baseline!
+> **Final Compression Ratio: 8.1× smaller** with only a **+0.98% accuracy loss** over baseline!
 
 ### Huffman Encoding Snapshot
 
@@ -163,7 +163,7 @@ Huffman encoding is applied as the final compression step. More frequent weight 
 [*] Original Baseline Accuracy: 96.91%
 [*] Pruned (Fine-Tuned) Acc:    97.88%
 [*] Final Quantized Accuracy:   97.89%
-[*] Total Network Sparsity:     90.00%
+[*] Total Network Sparsity:     98.00%
 
 [*] --- STORAGE SAVINGS ---
    [-] Baseline Storage Size:    0.8955 MB (32-bit)
