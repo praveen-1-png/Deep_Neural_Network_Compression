@@ -163,7 +163,7 @@ Huffman encoding is applied as the final compression step. More frequent weight 
 [*] Original Baseline Accuracy: 96.91%
 [*] Pruned (Fine-Tuned) Acc:    97.88%
 [*] Final Quantized Accuracy:   97.89%
-[*] Total Network Sparsity:     98.00%
+[*] Total Network Sparsity:     50.00%
 
 [*] --- STORAGE SAVINGS ---
    [-] Baseline Storage Size:    0.8955 MB (32-bit)
